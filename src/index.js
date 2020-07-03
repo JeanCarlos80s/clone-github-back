@@ -9,4 +9,4 @@ app.use(cors())
 app.use(express.json())
 app.use(routes)
 
-app.listen('https://clone-github-back.herokuapp.com')
+app.listen(process.env.PORT || 3000)
